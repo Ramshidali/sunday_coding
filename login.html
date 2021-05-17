@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+    <style>
+
+    body{
+        text-align: center;
+        background-color: darkgrey;
+    }
+    
+    input{
+        width: 180px;
+    }
+
+    .reg_head{
+        font-size: 40px;
+    }
+
+    form{
+        display: inline-block;
+        background-color: aliceblue;
+        border-color: black;
+        top: 250px;
+        left: auto;
+        right: auto;
+    }
+    .label_area{
+        text-align: left;
+    }
+    </style>
+
+</head>
+<body>
+    
+    <form action="#">
+
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                   <label class="reg_head">Login</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Email" class="label_area">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="mail" id="Email">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Pass" class="label_area">Password</label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="Pass">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" name="button" id="Button" value="Signin">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <a href="index_page.html">Signup</a>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
